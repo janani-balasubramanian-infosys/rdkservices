@@ -643,7 +643,7 @@ static GSourceFuncs _handlerIntervention =
                 , EnvironmentVariables()
                 , ContentFilter()
                 , LoggingTarget()
-                , WebAudioEnabled(false)
+                , WebAudioEnabled(true)
             {
                 Add(_T("webkitdebug"), &WebkitDebug);
                 Add(_T("gstdebug"), &GstDebug);
